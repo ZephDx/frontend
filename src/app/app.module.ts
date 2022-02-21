@@ -15,6 +15,8 @@ import { VillainsComponent } from './villains/villains.component';
 import { VillainDetailComponent } from './villain-detail/villain-detail.component';
 import { MessagesComponent } from './messages/messages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { VillainSearchComponent } from './villain-search/villain-search.component';
+
 
 
 
@@ -25,8 +27,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     VillainDetailComponent,
     MessagesComponent,
     DashboardComponent,
+    VillainSearchComponent,
     
   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule,
